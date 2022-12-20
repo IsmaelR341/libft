@@ -6,7 +6,7 @@
 /*   By: ireal-po <ireal-po@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/18 19:08:30 by ireal-po          #+#    #+#             */
-/*   Updated: 2022/12/18 20:14:32 by ireal-po         ###   ########.fr       */
+/*   Updated: 2022/12/18 21:03:45 by ireal-po         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,3 +43,6 @@ char	*ft_strrchr(const char *s, int c)
 // 	printf("%s", ft_strrchr(s, (int)a));
 // 	return(0);
 // }
+//linea 29: lastc guarda el ultima posicion de i,
+//linea 34, imprime la poscion de memoria a partir
+// del nuevo valor que consigue lastc en l.29
