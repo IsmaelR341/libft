@@ -6,7 +6,7 @@
 /*   By: ireal-po <ireal-po@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/22 12:04:40 by ireal-po          #+#    #+#             */
-/*   Updated: 2022/12/22 13:18:30 by ireal-po         ###   ########.fr       */
+/*   Updated: 2022/12/22 13:25:07 by ireal-po         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 // int	main(void)
 // {
 // 	char	haystack[] = "Carolina. Hola caracola";
-// 	char	needle[] = "ca";
+// 	char	needle[] = "car";
 // 	size_t		len;
 // 	len = 20;
 // 	printf("haystack :%s\n", haystack);

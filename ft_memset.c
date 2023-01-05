@@ -6,7 +6,7 @@
 /*   By: ireal-po <ireal-po@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/05 18:37:15 by ireal-po          #+#    #+#             */
-/*   Updated: 2022/12/08 13:59:31 by ireal-po         ###   ########.fr       */
+/*   Updated: 2022/12/23 16:45:59 by ireal-po         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,6 @@ void	*ft_memset(void *s, int c, size_t len)
 // 	char	s[]= "Holas paco";
 // 	int		c;
 // 	size_t	n;
-
 // 	c = 'f';
 // 	n = 5;
 // 	printf("\n%s", s);

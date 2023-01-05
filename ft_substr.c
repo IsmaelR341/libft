@@ -6,7 +6,7 @@
 /*   By: ireal-po <ireal-po@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/27 11:47:21 by ireal-po          #+#    #+#             */
-/*   Updated: 2022/12/27 14:22:06 by ireal-po         ###   ########.fr       */
+/*   Updated: 2022/12/28 14:14:50 by ireal-po         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,6 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 // 	char str[] = "Hola Manuel, Como estass?";
 // 	int	empieza;
 // 	size_t acaba;
-
 // 	empieza = 20;
 // 	acaba = 25;
 // 	printf("La nueva substring: %s", ft_substr(str, empieza, acaba));
