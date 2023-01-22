@@ -6,7 +6,7 @@
 /*   By: ireal-po <ireal-po@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/05 16:53:06 by ireal-po          #+#    #+#             */
-/*   Updated: 2023/01/05 17:28:54 by ireal-po         ###   ########.fr       */
+/*   Updated: 2023/01/05 17:36:15 by ireal-po         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,4 +44,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 //L.25: *s = una cadena de caracteres, (*f)(i, char) = una funcion
 // se aplica a cada caracgter de la cadena s, se le pasa el indice del
 //caracter dentro de la cadena y el propio caracter de la cadena.
-//
