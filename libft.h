@@ -6,7 +6,7 @@
 /*   By: ireal-po <ireal-po@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 19:46:57 by ireal-po          #+#    #+#             */
-/*   Updated: 2023/01/22 12:56:58 by ireal-po         ###   ########.fr       */
+/*   Updated: 2023/01/22 13:19:56 by ireal-po         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,5 +91,7 @@ void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char *s, int fd);
 /*Escribe una cadena y una línea a un fd de un archivo dado(detras del string)*/
 void	ft_putendl_fd(char *s, int fd);
+/*Escribe un nº entero dado a un descriptor de archivo dado, cuida q imprima -*/
+void	ft_putnbr_fd(int n, int fd);
 
 #endif
