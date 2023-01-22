@@ -6,19 +6,22 @@
 /*   By: ireal-po <ireal-po@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/28 19:52:38 by ireal-po          #+#    #+#             */
-/*   Updated: 2023/01/05 16:52:14 by ireal-po         ###   ########.fr       */
+/*   Updated: 2023/01/22 16:44:52 by ireal-po         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_intlen(int n)
+int	ft_intlen(long n)
 {
 	int	len;
 
 	len = 0;
 	if (n == 0)
+	{
 		len++;
+		return (len);
+	}
 	if (n < 0)
 	{
 		n *= -1;
@@ -38,7 +41,7 @@ char	*ft_itoa(int n)
 	long	num;
 	int		len;
 
-	num = (long) n;
+	num = (long)n;
 	len = ft_intlen(num);
 	str = (char *) malloc(sizeof(char) * (len + 1));
 	if (!str)
@@ -60,7 +63,7 @@ char	*ft_itoa(int n)
 
 // int main()
 // {
-// 	int	a = -362340;
+// 	int	a = -2147483648;
 // 	printf("%s", ft_itoa(a));
 // 	return (0);
 // }
