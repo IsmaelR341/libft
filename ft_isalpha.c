@@ -6,7 +6,7 @@
 /*   By: ireal-po <ireal-po@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/30 10:54:10 by ireal-po          #+#    #+#             */
-/*   Updated: 2022/12/07 17:59:26 by ireal-po         ###   ########.fr       */
+/*   Updated: 2023/01/29 17:40:58 by ireal-po         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,13 +19,3 @@ int	ft_isalpha(int c)
 	else
 		return (0);
 }
-/*
-int	main(void)
-{
-	int	a;
-
-	a = ft_isalpha('G');
-	printf("%d\n", a);
-	return (0);
-}
-*/

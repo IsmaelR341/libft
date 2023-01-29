@@ -6,7 +6,7 @@
 /*   By: ireal-po <ireal-po@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/11 20:50:15 by ireal-po          #+#    #+#             */
-/*   Updated: 2022/12/28 17:12:28 by ireal-po         ###   ########.fr       */
+/*   Updated: 2023/01/29 17:42:03 by ireal-po         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,13 +27,3 @@ char	*ft_strchr(const char *s, int c)
 	}
 	return (NULL);
 }
-
-// int	main(void)
-// {
-// 	char	s[] = "Hola Paco como estas";
-// 	int		a;
-// 	a = 'x';
-// 	printf("%c\n", (char)a);
-// 	printf("%s", ft_strchr(s, (int)'a'));
-// 	return(0);
-// }

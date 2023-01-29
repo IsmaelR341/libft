@@ -6,7 +6,7 @@
 /*   By: ireal-po <ireal-po@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/27 14:29:47 by ireal-po          #+#    #+#             */
-/*   Updated: 2022/12/27 18:28:51 by ireal-po         ###   ########.fr       */
+/*   Updated: 2023/01/29 17:47:51 by ireal-po         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,13 +40,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	s3[j] = '\0';
 	return (s3);
 }
-
-// int main()
-// {
-// 	char st1[] = "Hola ";
-// 	char st2[] = "Caracola";
-// 	printf("Concatenación: %s", ft_strjoin(st1, st2));
-// 	return (0);
-// }
-//Concateno S1 y s2 y devuelve el resultado
-//Linea 23: Sizeof(char) = 1byte (char)

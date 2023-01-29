@@ -6,7 +6,7 @@
 /*   By: ireal-po <ireal-po@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/22 13:24:42 by ireal-po          #+#    #+#             */
-/*   Updated: 2022/12/23 13:33:57 by ireal-po         ###   ########.fr       */
+/*   Updated: 2023/01/29 17:40:37 by ireal-po         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,15 +38,3 @@ int	ft_atoi(const char *str)
 	}
 	return (aux * sign);
 }
-
-// int	main(void)
-// {
-// 	char *i = "  -568132";
-
-// 	printf("el entero es %i\n", ft_atoi(i));
-// 	return (0);
-// }
-// //Devuelve el entero de un string, salta espacios, tiene en cuenta negativos
-//para dar el signo correcto al int que se genera.
-//L.26, tipo de espacios, tabulador, nueva linea..
-//Este atoi es simple, no canaliza más de un signo negativo.

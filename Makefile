@@ -6,13 +6,12 @@
 #    By: ireal-po <ireal-po@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/03 19:10:06 by ireal-po          #+#    #+#              #
-#    Updated: 2023/01/22 13:16:17 by ireal-po         ###   ########.fr        #
+#    Updated: 2023/01/29 17:07:36 by ireal-po         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
 CFLAGS = -Wall -Werror -Wextra
-CC = gcc -c
 SRC = ft_isalpha.c ft_isdigit.c ft_isalnum.c\
 		ft_isascii.c ft_isprint.c ft_strlen.c\
 		ft_memset.c ft_bzero.c ft_memcpy.c\
@@ -24,21 +23,26 @@ SRC = ft_isalpha.c ft_isdigit.c ft_isalnum.c\
 		ft_strjoin.c ft_strtrim.c ft_itoa.c\
 		ft_strmapi.c ft_striteri.c ft_putchar_fd.c\
 		ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c\
+		ft_split.c\
+		
 		
 			  
-OBJS = $(SRC:.c=.o)
+CC = gcc
+OBJ = $(SRC:.c=.o)
 
-$(NAME) : $(OBJ)
+$(NAME) : $(OBJ)	
 	$(CC) $(CFLAG) -c $(SRC)
-	@ar rcs $(NAME) $(OBJS) $(SRC)
+	@ar rc $(NAME) $(OBJ) $(SRC)
 
 all : $(NAME)
+
+re: fclean all
+
 clean:
-	rm -f *.o $(NAME)
-fclean:
-	rm -f *.a *.o $(NAME)
-re: make fclean all
-compile:
-	$(CC) $(CFLAG) $(SRC)
-	
-.PHONY: all clean fclean re
+	@rm  -f $(OBJ)
+
+fclean: clean
+	@rm  -f $(NAME)
+
+
+.PHONY : clean fclean all re

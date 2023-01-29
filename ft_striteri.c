@@ -6,7 +6,7 @@
 /*   By: ireal-po <ireal-po@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/05 17:37:25 by ireal-po          #+#    #+#             */
-/*   Updated: 2023/01/05 19:17:36 by ireal-po         ###   ########.fr       */
+/*   Updated: 2023/01/29 17:42:10 by ireal-po         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,17 +30,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		i++;
 	}
 }
-
-// int main()
-// {
-// 	char str[] = "abcdefgh";
-// 	int	(*f)(int);
-// 	f = &ft_toupperr;
-// 	ft_striteri(str, f);
-// 	printf("Nueva cadena: %s\n", str);
-// 	return (0);
-// }
-//Itera a través de cada carácter de una cadena y ejecuta
-//una función en cada uno de llos, proporciona el índice
-//del carácter en la cadena, no modifica la cadena original,
-//no devuelve nada

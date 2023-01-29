@@ -6,7 +6,7 @@
 /*   By: ireal-po <ireal-po@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/11 15:14:00 by ireal-po          #+#    #+#             */
-/*   Updated: 2022/12/22 13:31:15 by ireal-po         ###   ########.fr       */
+/*   Updated: 2023/01/29 17:42:17 by ireal-po         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dsize)
 		lendst = dsize;
 	return (lendst + ft_strlen(src));
 }
-
-//linea 36: si lo que das del main como maximo de longitud es menor a la
-//longitud que se genera sumando la concatenacion, se corta en el largo 
-//enviado en el main 

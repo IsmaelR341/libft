@@ -6,12 +6,11 @@
 /*   By: ireal-po <ireal-po@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/11 14:15:24 by ireal-po          #+#    #+#             */
-/*   Updated: 2022/12/11 15:14:27 by ireal-po         ###   ########.fr       */
+/*   Updated: 2023/01/29 17:42:23 by ireal-po         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// Me gustaría hacer un main para probar el while con i <=
 
 size_t	ft_strlcpy(char *restrict dst, const char *restrict src, size_t dsize)
 {

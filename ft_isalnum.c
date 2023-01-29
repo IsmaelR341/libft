@@ -6,7 +6,7 @@
 /*   By: ireal-po <ireal-po@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/30 11:16:22 by ireal-po          #+#    #+#             */
-/*   Updated: 2022/12/07 18:06:34 by ireal-po         ###   ########.fr       */
+/*   Updated: 2023/01/29 17:40:52 by ireal-po         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,14 +19,3 @@ int	ft_isalnum(int c)
 	else
 		return (0);
 }
-
-/*
-int	main(void)
-{
-	int	a;
-
-	a = ft_isalnum('6');
-	printf("%d\n", a);
-	return (0);
-}
-*/

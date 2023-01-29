@@ -6,7 +6,7 @@
 /*   By: ireal-po <ireal-po@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/20 18:20:28 by ireal-po          #+#    #+#             */
-/*   Updated: 2022/12/20 20:37:57 by ireal-po         ###   ########.fr       */
+/*   Updated: 2023/01/29 17:41:26 by ireal-po         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,17 +31,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-
-// int	main(void)
-// {
-// 	char	s1[] = "1112";
-// 	char	s2[] = "1111";
-// 	size_t		a;
-// 	a = 4;
-// 	printf("s1 :%s\n", s1);
-// 	printf("s2: %s\n", s2);
-// 	printf("%zu\n", a);
-// 	printf("%i", ft_memcmp(s1, s2, a));
-// 	return(0);
-// }
-// //me gustaría ver la diferencia específica con strncmp
